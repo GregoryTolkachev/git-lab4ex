@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spring - {{title}}</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
+</head>
+
+<body>x
+  <div id="site">
+    <header>
+      Spring! 🍃
+    </header>
+    {{> login}}
+    {{> mainMenu}}
+    <div class="hidden-font">
+      <main>
+        {{{body}}}
+      </main>
+      {{> sideMenu}}
+    </div>
+    <footer>
+      &copy; 2021 Heritage Associates
+    </footer>
+  </div>
+</body>
+
+</html>
